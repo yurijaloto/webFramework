@@ -1,0 +1,32 @@
+{
+  "name": "webFramework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src",
+    "test": "NODE_ENV=development vitest --config ./vite.config.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurijaloto/webFramework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurijaloto/webFramework/issues"
+  },
+  "homepage": "https://github.com/yurijaloto/webFramework#readme",
+  "devDependencies": {
+    "tsx": "^4.1.1",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "vite-tsconfig-paths": "^4.2.1"
+  }
+}
